@@ -1,0 +1,134 @@
+<html>
+<head>
+    <h5>Ayush Masmare CS24073</h5>
+    <title>Academic Excellence Scholarship Program</title>
+</head>
+<body <body style="background-image:url(th.jpg);background-attachment: scroll;background-repeat: no-repeat;background-size: 100% 100%; ">
+    <form>
+        <h1 align="center">Scholarship Registration Form</h1>
+        <h2 align="center">SB JAIN INSTITUTE OF TECHNOLOGY MANAGEMENT AND RESEARCH NAGPUR</h2>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <table width="100%">
+                <tr>
+                    <td width="50%">
+                        <label for="first_name">First Name:</label><br>
+                        <input type="text" id="first_name" name="first_name" required size="30">
+                    </td>
+                    <td width="50%">
+                        <label for="last_name">Last Name:</label><br>
+                        <input type="text" id="last_name" name="last_name" required size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required size="65">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" required size="30">
+                    </td>
+                    <td>
+                        <label for="dob">Date of Birth:</label><br>
+                        <input type="date" id="dob" name="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="address">Full Address:</label><br>
+                        <textarea id="address" name="address" rows="3" cols="65" required></textarea>
+                    </td>
+                </tr>
+            </table>
+        <br>
+        <label>Gender:</label><br>
+        <input type="radio" name="Gender">Male<br>
+        <input type="radio" name="Gender">Female<br>
+        <input type="radio" name="Gender">Others<br><hr>
+    </fieldset>
+
+        <fieldset>
+            <h2><i>Academic Information</i></h2><br>
+            <table border="1" >
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Class</th>
+                    <th>Board</th>
+                    <th>Passing Year</th>
+                    <th>Percentage</th>
+                    <th>Institute</th>
+
+                </tr>
+            </thead>
+            <tr>
+            <td>1</td>
+            <td><input type="number"> </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="number"> </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><input type="number"> </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="text"></td>
+        </tr>
+        
+                    <td colspan="2">
+                        
+                        <label for="achievements">Other Academic Achievements (max 200 words):</label><br>
+                        <textarea id="achievements" name="achievements" rows="5" cols="65" maxlength="1000" required></textarea>
+                    </td>
+                </tr>
+            </table>
+            <label>Known Programming Languages:</label><br>
+            <input type="checkbox">C<br>
+            <input type="checkbox">C++<br>
+            <input type="checkbox">JAVA<br>
+            <input type="checkbox">HTML<br>
+            <input type="checkbox">Others<br> 
+        </fieldset>
+        <fieldset>
+            <legend><b>Supporting Documents</b></legend>
+            <table width="100%">
+                <tr>
+                    <td width="50%">
+                        <label for="transcript">Upload Photo</label><br>
+                        <input type="file" id="transcript" name="transcript" accept=".pdf" required>
+                    </td>
+                    <td width="50%">
+                        <label for="essay">Upload Adhar Card</label><br>
+                        <input type="file" id="essay" name="essay" accept=".pdf,.doc,.docx" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Final Steps</b></legend>
+            <p>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I certify that all information provided is accurate and complete to the best of my knowledge.</label>
+            </p>
+            <p align="center">
+                <input type="submit" value="Submit">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
